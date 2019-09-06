@@ -67,11 +67,11 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 200px;
-  height: 200px;
-  border-radius: 100%; /* Changed border radius from 50% too 100% for extra credit.  */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   border: 3px solid white;
-  transition: all 1s;
+  transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
