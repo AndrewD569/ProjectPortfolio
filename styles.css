@@ -69,7 +69,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 100%; /* Changed border radius from 50% too 100% for extra credit.  */
   border: 3px solid white;
   transition: all .5s;
 }
