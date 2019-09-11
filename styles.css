@@ -76,8 +76,8 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
@@ -97,11 +97,35 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+
+.goals {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 1200px;
-  text-align: left;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 50px;  /* Changed the border radius */
+  transition: all .5s;
+}
+
+.background{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 50px;  /* Changed the border radius */
+  transition: all .5s;
+
+}
+
+.hobbies{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 50px;  /* Changed the border radius */
