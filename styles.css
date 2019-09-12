@@ -23,8 +23,17 @@ a:hover {
 
 /* Section Styles */
 
+#website-title {
+  font-family: 'robot', sans-serif;
+  font: 1.2em "Fira Sans", sans-serif;
+}
+
 .main-nav-websites {
   font: 1.7em  "Fira Sans", sans-serif;
+}
+
+.card p {
+  font-size: 2em;
 }
 
 .hobbies-nav li{
